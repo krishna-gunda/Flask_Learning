@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+</head>
+
+<body>
+
+    <h1>{{ student.name }}</h1>
+
+    <p>Age: {{ student.age }}</p>
+
+    <p>Marks: {{ student.marks }}</p>
+
+    <p>City: {{ student.address.city }}</p>
+
+    <p>State: {{ student.address.state }}</p>
+
+    <p>First Skill: {{ student.skills[0::] }}</p>
+
+</body>
+</html>
